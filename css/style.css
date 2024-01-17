@@ -10,7 +10,6 @@
     background-color: #3a546d;
 }
 
-.pippo{
-    display: flex;
-    
+#my_text_color{
+    color: #1abc9c;
 }
