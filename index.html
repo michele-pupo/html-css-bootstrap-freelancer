@@ -18,31 +18,32 @@
     <header>
 
         <!-- navbar -->
-        <nav class="navbar py-4 navbar-expand-lg bg-body-tertiary  my_navbar" data-bs-theme="dark">
-            <div class="container text-uppercase text-white fw-bolder">
-                <a class="navbar-brand" href="#">Start bootstrap</a>
+        <nav class="navbar py-4 navbar-expand-lg bg-body-tertiary" id="my_navbar" data-bs-theme="dark">
+            <div class="container text-uppercase fw-bolder">
+                <a class="navbar-brand fs-3" href="#">Start bootstrap</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                        <a class="nav-link text-white fs-5" href="#">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link text-white fs-5" href="#">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link text-white fs-5" href="#">Contact</a>
                     </li>
                     </ul>
                 </div>
             </div>
         </nav>
+        <!-- fine navbar -->
 
         <!--profile -->
-        <section id="jumbotron">
-            <div class="container py-4 text-white my_jumbotron">
+        <section id="my_jumbotron">
+            <div class="container py-4 text-white">
                 <div class="row justify-content-center text-center">
                     <div class="col-3">
                         <div class="ec-content-image my-4">
@@ -50,11 +51,11 @@
                         </div>
                     </div>
                     <h1 class="text-center text-uppercase display-4 fw-bolder">Start bootstrap</h1>
-                    <div class="ec-component-icon">
-                        <i class="fa-solid fa-star"></i>
+                    <div class="ec-component-icon my-3 text-center">
+                        <i class="fa-solid fa-star fs-2"></i>
                     </div>
                     </div>
-                        <ul class="my-4 d-flex align-items-center px-0 justify-content-center text-center text-uppercase">
+                        <ul class="list-unstyled my-1 d-flex align-items-center px-0 justify-content-center text-center text-uppercase">
                             <li class="col-3 col-lg-2 fs-3">Graphic artist</li>
                             <li><i class="fa-solid fa-minus"></i></li>
                             <li class="col-3 col-lg-2 fs-3">Web Designer</li>
@@ -65,8 +66,57 @@
                 </div>
             </div>
         </section>
-        <!--/ Header bottom-->
+        <!-- fine profile -->
     </header>
+
+    <main>
+
+        <!-- sezione portfolio -->
+        <section id="portfolio">
+            <div class="container py-5">
+                <h2 class="text-uppercase text-center fw-bolder fs-1">Portfolio</h2>
+                <div class="ec-component-icon my-3 text-center">
+                    <i class="fa-solid fa-star fs-2"></i>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row g-4 row-cols-1 row-cols-lg-2 row-cols-xl-3">
+                  <div class="col">
+                    <div>
+                        <img src="img/cabin.png" class="rounded-3 img-fluid" alt="cabin">
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div>
+                        <img src="img/cabin.png" class="rounded-3 img-fluid" alt="cabin">
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div>
+                        <img src="img/cabin.png" class="rounded-3 img-fluid" alt="cabin">
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div>
+                        <img src="img/cabin.png" class="rounded-3 img-fluid" alt="cabin">
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div>
+                        <img src="img/cabin.png" class="rounded-3 img-fluid" alt="cabin">
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div>
+                        <img src="img/cabin.png" class="rounded-3 img-fluid" alt="cabin">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+        </section>
+        <!-- fine portfolio -->
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
